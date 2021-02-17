@@ -1,14 +1,8 @@
 # go-outside
 
-Get the weather outside
-
-## TODO
-* Get coordinates by ip https://freegeoip.app/json/
-* Call weather api to get current weather https://openweathermap.org/current#geo
+Get the weather outside (based on your IP)
 
 
-## Stretch
-* ascii art https://github.com/common-nighthawk/go-figure/
 
 ## Setup
 Create `.env` with `OPENWEATHER_API_KEY`:
@@ -16,3 +10,19 @@ Create `.env` with `OPENWEATHER_API_KEY`:
 ## .env
 OPENWEATHER_API_KEY=<REPLACE_WITH_VALID_KEY>
 ```
+
+## Build
+```
+$ go build
+```
+
+## Run
+```
+$ ./go_outside
+  ____     ___        _  _                  ____   _
+ |___ \   / _ \      | || |                / ___| | |   ___    __ _   _ __
+   __) | | (_) |     | || |_     _____    | |     | |  / _ \  / _` | | '__|
+  / __/   \__, |  _  |__   _|   |_____|   | |___  | | |  __/ | (_| | | |
+ |_____|    /_/  (_)    |_|                \____| |_|  \___|  \__,_| |_|
+```
+Press enter
