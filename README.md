@@ -9,3 +9,10 @@ Get the weather outside
 
 ## Stretch
 * ascii art https://github.com/common-nighthawk/go-figure/
+
+## Setup
+Create `.env` with `OPENWEATHER_API_KEY`:
+```
+## .env
+OPENWEATHER_API_KEY=<REPLACE_WITH_VALID_KEY>
+```
