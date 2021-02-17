@@ -1,4 +1,5 @@
 .env
+go-outside
 
 # Binaries for programs and plugins
 *.exe

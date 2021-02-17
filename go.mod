@@ -1,4 +1,4 @@
-module ozbe.io/go-outside
+module github.com/ozbe/go-outside
 
 go 1.15
 
